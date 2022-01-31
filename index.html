@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form class="">
+                <div class="form-group">
+                    <label for ="firstName"> First name</label>
+                    <input type="text" id="firstName" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for= lastName>last Name</label>
+                    <input type="text" id="lastName" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for ="email"> Email Addresh</label>
+                    <input type="text" id="email" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for ="password"> password</label>
+                    <input type="text" id="password" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for ="FirstName"> Phone Number</label>
+                    <input type="text" id="Phone" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label type="address" >Address</label>
+                    <textarea id="address" class="form-control"> </textarea>
+                    <textarea id="address" class="form-control" cols="20" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="xy">District Name</label>
+                   <select id="district" class="form-control">
+                       <option value="disabled selected"> <---disabled selected----> </option>
+                       <optgroup label="Dhaka.Div">
+
+                       <option value="dhaka">Dhaka</option>
+                       <option value="gazipur">Gazipur</option>
+                       <option value="savar">savar</option>
+                       </optgroup>
+                       <optgroup label="CHi.Div">
+                       <option value="chandpur">chandpur</option>
+                       <option value="khulna">khulna</option>
+                       <option value="comilla">comolla</option>
+                       </optgroup>
+
+                   </select>
+
+                </div>
+                <div class="form-group">
+                    <label >Gender</label>
+                    <div>
+                        <label><input type="radio" value="male" name="gender"/>Male</label>
+                        <label><input type="radio" value="Female" name="gender">Female</label>
+                        <label> <input type="radio" value="Others" name="gender">Others</label>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <lable for="image">Image</lable>
+                    <input type="file" id="image" class="form-control-file" accept="image/*">
+
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" class="form-control"id="dob"/>
+
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox">I agree with all terms & conditions
+                    </label>
+
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-outline-success" value="submit">
+
+                </div>
+           </form>
+            </div>
+
+            <div class="col-md-6">
+                <form action="">
+                    <div class="form-group">
+                        <label for="rightfirstName" class="col-md-4 col-form-label">First Name</label>
+                        <div class="col-md-8">
+                            <input type="text" list="name" class="form-control" id="rightfirstName">
+                        </div>
+
+                    </div>
+                    <div class="col-form-row">
+                        <label for="rightfirstName" class="col-md-4">Last Name</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="rightfirstName"/>
+                        </div>
+
+                    </div>
+                    <div class="form-control row">
+                        <label for="emailAddress"class="col-md-4 col-form-label">Email Address</label>
+                        <div class="col-md-8">
+                            <input type="email" class="form-control" id="emailAddress"/>
+
+                        </div>
+
+                    </div>
+                    <div class="form-control row">
+                        <label for="writepassword" class="col-md-4 col-form-label">password</label>
+                        <div class="col-md-8">
+                            <input type="password" class="form-control" id="writepassword"/>
+
+                        </div>
+
+                    </div>
+                    <div class="form-control row">
+                        <label for="phoneNumber" class="col-md-4 col-form-label">phone number</label>
+                        <div class="col-md-8">
+                            <input type="password" class="form-control" id="phoneNumber"/>
+
+                        </div>
+
+                    </div>
+                    <div class="form-control row">
+                        <label for="homeAddress" class="col-md-4 col-form-label">Address</label>
+                        <div class="col-md-8">
+                            <textarea name="form-control" id="homeAddress" cols="20" rows="5"/>
+
+                        </div>
+
+                    </div>
+                    <div class="form-control row">
+                        <label for="districtName" class="col-md-4 col-form-label">District Name</label>
+                        <div class="col-md-8">
+                            <select id="district" class="form-control">
+                                <option value="disabled selected"> <---disabled selected----> </option>
+                                <optgroup label="Dhaka.Div">
+
+                                    <option value="dhaka">Dhaka</option>
+                                    <option value="gazipur">Gazipur</option>
+                                    <option value="savar">savar</option>
+                                </optgroup>
+                                <optgroup label="CHi.Div">
+                                    <option value="chandpur">chandpur</option>
+                                    <option value="khulna">khulna</option>
+                                    <option value="comilla">comolla</option>
+                                </optgroup>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+                    <div class="form-group-row">
+                        <label class="col-md-4 col-form-label">Gender</label>
+                        <div class="col-md-8">
+                            <label><input type="radio" value="male" name="gender"/>Male</label>
+                            <label><input type="radio" value="Female" name="gender">Female</label>
+                            <label> <input type="radio" value="Others" name="gender">Others</label>
+
+                        </div>
+
+                    </div>
+                    <div class="form-group-row">
+                        <label class="col-md-4 col-form-label">Image Upload</label>
+                        <div class="col-md-8">
+                            <input type="submit" class="form-control-file"/>
+
+                        </div>
+
+                    </div>
+                    <div class="form-group-row">
+                        <label class="col-md-4 col-form-label">Date of Birth</label>
+                        <div class="col-md-8">
+                            <input type="date" class="form-control"/>
+
+                        </div>
+
+                    </div>
+                    <div class="form-group-row">
+                        <label class="col-md-4 col-form-label"></label>
+                        <div class="col-md-8">
+                            <input type="checkbox" class=""/>I agree with all terms & condition
+
+                        </div>
+
+                    </div>
+                    <div class="form-group-row">
+                        <label class="col-md-4 col-form-label"></label>
+                        <div class="col-md-8">
+                            <input type="submit" class="btn btn-success" value="Register"/>
+
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card car-body">
+                    <table class="table table-borderless">
+                        <thead class="thead-dark">
+                        <tr>
+                           <th>Name</th>
+                           <th>email</th>
+                           <th>address</th>
+                           <th>phone</th>
+                           <th>district</th>
+                           <th>image</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Arif Rayhan</td>
+                            <td>arif@gmail.com</td>
+                            <td>01778625704</td>
+                            <td>Badda,dhaka</td>
+                            <td>Dhaka</td>
+                            <td>
+                                <img src="" alt="">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<datalist id="name">
+    <option value="shaown">
+    <option value="mohin">
+    <option value="tune">
+    <option value="mamun">
+    <option value="shela">
+    <option value="robiul">
+    <option value="sazzad">
+    <option value="sanjida">
+    <option value="mitu">
+</datalist>
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
